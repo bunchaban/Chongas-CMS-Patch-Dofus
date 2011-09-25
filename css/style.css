@@ -1,0 +1,527 @@
+@charset "utf-8";
+/* Galeria Style */
+
+body{
+background:#2a0c0e url(../imagens/background.png) no-repeat center top;
+margin:0;
+}
+
+#corpo{
+width:960px; height:600px;
+background-color:#333333;
+margin:auto;
+}
+
+#fotos{
+width:110px; height:110px;
+float:left;
+margin-left:10px;
+}
+
+#fotos img{
+border:#FFFFFF solid 1px;
+margin:auto;
+}
+
+h1{
+color:#FFFFFF;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:18px;
+margin-top:5px;
+margin-left:5px;
+}
+
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #533500;
+}
+a:link {
+	color: #888;
+	text-decoration: none;
+}
+a:visited {
+	color: #888;
+	text-decoration: none;
+}
+a:hover {
+	color: #999;
+	text-decoration: none;
+}
+a:active {
+	color: #888;
+	text-decoration: none;
+}
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+#topsite {
+	background: url("../imagens/logomarca.png") no-repeat;
+	width: 940px;
+	height: 150px;
+}
+#switch-color {
+	width: 100px;
+	font-size: 14px;
+	padding-bottom: 30px;
+	padding-right: 1px;
+	text-align: right;
+}
+
+#rank_limitador{
+width:680px;
+background-color:#FFFFFF;
+margin:auto;
+}
+
+#menu_home a {
+	background: url("../imagens/menu_home.png") no-repeat;
+	width: 79px;
+	height: 45px;
+	display: block;
+}
+#menu_downloads a {
+	background: url("../imagens/menu_downloads.png") no-repeat;
+	width: 132px;
+	height: 45px;
+	display: block;
+}
+#menu_informacoes a {
+	background: url("../imagens/menu_informacoes.png") no-repeat;
+	width: 141px;
+	height: 45px;
+	display: block;
+}
+#menu_registro a {
+	background: url("../imagens/menu_registro.png") no-repeat;
+	width: 104px;
+	height: 45px;
+	display: block;
+}
+#menu_forum a {
+	background: url("../imagens/menu_forum.png") no-repeat;
+	width: 89px;
+	height: 45px;
+	display: block;
+}
+#menu_branco a {
+	background: url("../imagens/menu_branco.png") no-repeat;
+	width: 92px;
+	height: 45px;
+	display: block;
+}
+#menu_doacao a {
+	background: url("../imagens/menu_doacao.png") no-repeat;
+	width: 100px;
+	height: 45px;
+	display: block;
+}
+#menu_ranking a {
+	background: url("../imagens/menu_ranking.png") no-repeat;
+	width: 102px;
+	height: 45px;
+	display: block;
+}
+#menu_contato a {
+	background: url("../imagens/menu_contato.png") no-repeat;
+	width: 101px;
+	height: 45px;
+	display: block;
+}
+#menu_on {
+	background: url("../imagens/on.png") no-repeat;
+	width: 230px;
+	height: 45px;
+	display: block;
+}
+#menu_off {
+	background: url("../imagens/off.png") no-repeat;
+	width: 230px;
+	height: 45px;
+	display: block;
+}
+#fullsite {
+	background: url("../imagens/fullsite.png") repeat-x;
+	background-color: #fff8de;
+	padding: 15px;
+}
+#pontilhado_pe {
+	background: url("../imagens/pontilhado_pe.png");
+	width: 21px;
+}
+#menu-cinza a {
+	background: url("../imagens/menu-cinza.png") no-repeat;
+	width: 167px;
+	height: 21px;
+	border-bottom: 1px solid #FFF;
+	padding-left: 23px;
+	padding-top: 8px;
+	display: block;
+	color: #9B9B9B;
+}
+#menu-cinza a:hover {
+	background: url("../imagens/menu-cinza-hover.png") no-repeat;
+	color: #FFF;
+	text-shadow: #adadad 0.1em 0.1em 0.0em;
+}
+#menu-branco a {
+	background: url("../imagens/menu-branco.png") no-repeat;
+	width: 167px;
+	height: 21px;
+	border-bottom: 1px solid #FFF;
+	padding-left: 23px;
+	padding-top: 8px;
+	display: block;
+	color: #9B9B9B;
+}
+#menu-branco a:hover {
+	background: url("../imagens/menu-branco-hover.png") no-repeat;
+	color: #FFF;
+	text-shadow: #adadad 0.1em 0.1em 0.0em;
+}
+#menu-cinza3 {
+	background: url("../imagens/menu-cinza.png") no-repeat;
+	width: 167px;
+	height: 21px;
+	border-bottom: 1px solid #FFF;
+	padding-left: 23px;
+	padding-top: 8px;
+	display: block;
+	color: #9B9B9B;
+}
+#menu-branco2 {
+	background: url("../imagens/menu-branco.png") no-repeat;
+	width: 167px;
+	height: 21px;
+	border-bottom: 1px solid #FFF;
+	padding-left: 23px;
+	padding-top: 8px;
+	display: block;
+	color: #9B9B9B;
+}
+#menu-cinza2 b {
+	background: url("../imagens/menu-cinza2.png") no-repeat;
+	width: 167px;
+	height: 21px;
+	border-bottom: 1px solid #FFF;
+	padding-left: 23px;
+	padding-top: 8px;
+	display: block;
+	color: #FFF;
+	border-top: 0px solid transparent;
+}
+#menu-cinza2_tofu b {
+	background: url("../imagens/menu-cinza2_tofu.png") no-repeat;
+	width: 167px;
+	height: 21px;
+	border-bottom: 1px solid #FFF;
+	padding-left: 23px;
+	padding-top: 8px;
+	display: block;
+	color: #FFF;
+	border-top: 0px solid transparent;
+}
+#menu-cinza2_esquilo b {
+	background: url("../imagens/menu-cinza2_esquilo.png") no-repeat;
+	width: 167px;
+	height: 21px;
+	border-bottom: 1px solid #FFF;
+	padding-left: 23px;
+	padding-top: 8px;
+	display: block;
+	color: #FFF;
+	border-top: 0px solid transparent;
+}
+#vote a {
+	background: url("../imagens/vote.png") no-repeat;
+	width: 167px;
+	height: 60px;
+	padding-left: 23px;
+	padding-top: 8px;
+	display: block;
+}
+#vote a:hover {
+	background: url("../imagens/vote-hover.png") no-repeat;
+}
+#login b {
+	background: url("../imagens/login.png");
+	width: 167px;
+	height: 55px;
+	padding-left: 23px;
+	padding-top: 8px;
+	display: block;
+}
+#enviar_login {
+	background: url("../imagens/go.png") no-repeat;
+	width: 50px;
+	height: 27px;
+}
+#enviar_comentario {
+	background: url("../imagens/go_comentario.png") no-repeat;
+	width: 131px;
+	height: 27px;
+}
+#legenda-1 {
+	padding-left: 24px;
+	height: 20px;
+	padding-bottom: 1px;
+	color: #FFF;
+}
+#legenda-2 {
+	padding-left: 24px;
+	height: 21px;
+	color: #FFF;
+}
+#painel {
+	background: url("../imagens/painel.png") no-repeat;
+	width: 190px;
+	height: 108px;
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+#painel2 {
+	height: 98px;
+}
+.usuario {
+	background: url("../imagens/input_login.png") no-repeat;
+	font-size: 11px;
+	width: 172px;
+	height: 32px;
+	padding: 0px 10px 0px 30px;
+   	border: 1px solid transparent;
+	color: #fff;
+}
+.senha {
+	background: url("../imagens/input_senha.png") no-repeat;
+	font-size: 11px;
+	width: 172px;
+    	height: 32px;
+	padding: 0px 10px 0px 30px;
+   	border: 1px solid transparent;
+	color: #fff;
+}
+.logs {
+	background: url("../imagens/input_ok.png") no-repeat;
+	width: 52px;
+	height: 34px;
+   	border: 1px solid transparent;
+}
+#novaconta a {
+	color: #FFF;
+	width: 111px;
+	opacity:0.50;
+	-moz-opacity: 0.50;
+	filter: alpha(opacity=50);
+	display: block;
+	padding-top: 4px;
+	padding-left: 10px;
+}
+
+input {
+	color: #666;
+	border: 1px solid #ccc;
+	height: 20px;
+	padding: 2px 5px 0 5px;
+}
+textarea {
+	color: #666;
+	border: 1px solid #ccc;
+	height: 70px;
+	padding: 2px 0 0 5px;
+}
+.input_contato {
+	color: #666;
+	border: 1px solid #ccc;
+	width: 689px;
+	height: 30px;
+	padding: 0px 5px 0 5px;
+}
+.input_contato:focus {
+	background: #FFFFC4;
+}
+.textarea_contato {
+	color: #666;
+	border: 1px solid #ccc;
+	width: 689px;
+	height: 150px;
+	padding: 5px 5px 5px 5px;
+	margin-bottom: 5px;
+}
+.textarea_contato:focus {
+	background: #FFFFC4;
+}
+.botoes_input {
+	color: #666;
+	border: 1px solid #ccc;
+	height: 30px;
+	padding: 0 5px 0px 5px;
+}
+.botoes_input:hover {
+	background: #FFFFC4;
+}
+#not_contents a {
+	background: url("../imagens/not_bg.png") no-repeat;
+	font-size: 13px;
+	color: #fff;
+	width: 630px;
+	height: 23px;
+	padding-left: 5px;
+	padding-top: 7px;
+	display: block;
+	border-top: 1px solid #fff;
+}
+
+.comment{
+	border: 1px #6C6C6C dashed;
+	margin:10px 10px 10px 10px;
+	padding:3px 3px 5px 5px;
+	overflow: hidden;
+}
+
+
+#not_contents a:hover {
+	opacity:0.85;
+	-moz-opacity: 0.85;
+	filter: alpha(opacity=85);
+}
+#not_date {
+	background: url("../imagens/not_date.png") no-repeat;
+	font-size: 11px;
+	font-weight: bold;
+	color: #fff;
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	border-top: 1px solid #fff;
+}
+#status {
+	background: url("../imagens/status.png") no-repeat;
+	width: 156px;
+	height: 30px;
+	border-top: 1px solid #fff;
+	padding-left: 23px;
+	color: #fff;
+}
+#status2 {
+	background: url("../imagens/status.png") no-repeat;
+	width: 157px;
+	height: 30px;
+	border-top: 1px solid #fff;
+	border-right: 1px solid #fff;
+	padding-left: 23px;
+	color: #fff;
+}
+#mensagem {
+	background: url("../imagens/mensagem_bg.png") no-repeat;
+	color: #fff;
+	width: 290px;
+	height: 124px;
+	padding-top: 70px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#promo a {
+	background: url("../imagens/promocao.png") no-repeat;
+	width: 359px;
+	height: 125px;
+	display: block;
+}
+#youtube {
+	background: url("../imagens/bg_youtube.png") no-repeat;
+	width: 330px;
+	height: 247px;
+	padding: 10px;
+}
+#topnot {
+	background: url("../imagens/noticia_top.png") no-repeat;
+	width: 700px;
+	height: 61px;
+}
+#semnot {
+	background: url("../imagens/sem_noticias.png") no-repeat;
+	width: 700px;
+	height: 61px;
+}
+#topevento {
+	background: url("../imagens/eventos_top.png") no-repeat;
+	width: 700px;
+	height: 61px;
+}
+#semevento {
+	background: url("../imagens/sem_eventos.png") no-repeat;
+	width: 700px;
+	height: 61px;
+}
+#falante {
+	background: url("../imagens/torpedo_bg.png") no-repeat;
+	width: 594px;
+	height: 30px;
+}
+#enviartorp {
+	background: url("../imagens/enviar_torpedo.png") no-repeat;
+	width: 100px;
+	height: 30px;
+}
+#pontilhadodeitado {
+	background: url("../imagens/pontilhado_deitado.png");
+	height: 21px;
+}
+#vip7 a {
+	background: url("../imagens/anuncio_7diasvipitens.png") no-repeat;
+	width: 304px;
+	height: 200px;
+	display: block;
+}
+#rodape {
+	padding: 20px 0px 20px 0px;
+	text-align: left;
+	color: #888;
+}
+#painel2 {
+	color: #FFF;
+	height: 98px;
+}
+#not_title {
+	color: #4a2f00;
+	font-size: 18px;
+	font-weight: bold;
+	height: 30px;
+	border-bottom: 1px dotted #C0C0C0;
+	padding-left: 3px;
+}
+#not_content {
+	font-size: 12px;
+	padding-top: 7px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#screenshot {
+	background: url("../imagens/screenshot_bg.png") no-repeat;
+	width: 223px;
+	height: 170px;
+	padding: 10px;
+}
+
+h1 {
+	text-align:center;
+	color: #969696;
+	font-size: 14px;
+	font-weight: bold;
+	height: 35px;
+	border-bottom: 1px dotted #C0C0C0;
+}
+
+h1 {
+	text-align:center;
+	color: #969696;
+	font-size: 18px;
+	font-weight: bold;
+	height: 35px;
+	border-bottom: 1px dotted #C0C0C0;
+}
+
+img:a{
+	border:0;
+}

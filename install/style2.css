@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* Galeria Style */
+
+body{
+margin:0;
+background:#000 url(background_install_2.jpg) no-repeat center top;
+}
+
+input {
+	color: #666;
+	border: 1px solid #ccc;
+	height: 20px;
+	padding: 2px 5px 0 5px;
+}
+textarea {
+	color: #666;
+	border: 1px solid #ccc;
+	height: 70px;
+	padding: 2px 0 0 5px;
+}
+.input_contato {
+	color: #666;
+	border: 1px solid #ccc;
+	width: 689px;
+	height: 30px;
+	padding: 0px 5px 0 5px;
+}
+.input_contato:focus {
+	background: #daffde;
+}
+.input_contato2 {
+	color: #666;
+	border: 1px solid #ccc;
+	width: 689px;
+	height: 30px;
+	padding: 0px 5px 0 5px;
+}
+.input_contato2:focus {
+	background: #ffffda;
+}
+.input_contato3 {
+	color: #666;
+	border: 1px solid #ccc;
+	width: 689px;
+	height: 30px;
+	padding: 0px 5px 0 5px;
+}
+.input_contato3:focus {
+	background: #ffdfdf;
+}
+.botoes_input {
+	color: #666;
+	border: 1px solid #ccc;
+	height: 30px;
+	padding: 0 5px 0px 5px;
+}
+.botoes_input:hover {
+	background: #daffde;
+}

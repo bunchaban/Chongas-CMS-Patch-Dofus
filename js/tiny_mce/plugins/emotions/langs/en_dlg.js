@@ -1,0 +1,20 @@
+tinyMCE.addI18n('en.emotions_dlg',{
+title:"Inserir Emoticon",
+desc:"Emotions",
+cool:"Legal",
+cry:"Raiva",
+embarassed:"O-O",
+foot_in_mouth:"=S",
+frown:"¬¬",
+innocent:"=3",
+kiss:"-.-",
+laughing:"LoL",
+money_mouth:"<-D",
+sealed:":B",
+smile:"Smile",
+surprised:"O_o",
+tongue_out:":P",
+undecided:":|",
+wink:";)",
+yell:">:)"
+});
